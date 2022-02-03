@@ -1,6 +1,6 @@
 // basic function
 
-var sayHello();
+// var sayHello();
 console.log("learning GIT PUSH");
 // sayHello(){
     
