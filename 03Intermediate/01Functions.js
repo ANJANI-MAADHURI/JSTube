@@ -1,7 +1,13 @@
 // basic function
+function sayHello() {
+    console.log("Hey there, Madhuri");
+}
 
-// var sayHello();
-//console.log("learning GIT PUSH");
-console.log("This is my 2'nd pull request from GITHub");
-console.log("This time, git pull is from Terminal");
+// Both the syntaxes are valid
+// Calling a function: we use () ex: sayHello()
+// Referenceing a function: we dont use (). Ex: sayHello
+sayHello();
+console.log("sayHello(): We are calling a function here");
+sayHello;
+console.log("sayHello: We are REFERNCING a function here");
 
