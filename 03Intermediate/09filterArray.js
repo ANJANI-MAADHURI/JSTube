@@ -8,3 +8,10 @@ const myNumber = [9, 19, 29, 39, 49, 59, 69, 79, 89, 99];
 
 const result = myNumber.filter( (num) => num != 79 );
 console.log(result);
+
+var users = [ "Ted", "Tim", "Sam", "Kobe", "Vivek" ];
+// console.log(users.slice(1,4,));
+// console.log(users.slice(1));
+
+users.splice(1,2,"HI");
+console.log(users);
