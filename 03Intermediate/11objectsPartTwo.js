@@ -16,8 +16,8 @@ var user = {
 console.log(user.firstName);
 console.log(user.getCourseCount());
 user.buyCourse("REACT JS course");
-console.log(user.getCourseCount());
 user.buyCourse("GIT HUB course");
+console.log(user.getCourseCount());
 user.buyCourse("NODE JS course");
 console.log(user.getCourseCount());
 console.log(user.courseList);
